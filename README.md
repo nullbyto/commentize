@@ -54,7 +54,7 @@ $ cargo build --release
 
 Usage and options should be self-explanatory from the **--help** menu.
 
-**Note** you have to be located in the directory of the binary file to be able to use it unless it is in the `PATH`, which will not be covered how to do here.
+**Note**: you have to be located in the directory of the binary file to be able to use it unless it is in the `PATH`, which will not be covered how to do here.
 
 ```sh
 Commentize 0.1.0
@@ -64,23 +64,23 @@ USAGE:
 
 FLAGS:
 	-a, --append 	Append to file path
-	-h, --help 		Prints help information
+	-h, --help 	Prints help information
 	-m, --modded 	Modded style
 	-o, --output 	Output the comment
 	-V, --version 	Prints version information
 
 OPTIONS:
 	-c, --comment <comment> 	Comment to be added
-	-f, --file <file> 			Text file to get comment from
+	-f, --file <file> 		Text file to get comment from
 	-y, --hp <height-pad> 		Height padding length
-	-l, --left <left> 			Left side padding length
+	-l, --left <left> 		Left side padding length
 	-r, --right <right> 		Right side padding length
 	-s, --symbol <symbol> 		Symbol to commnetize with
-	-w, --wall <wall> 			Wall symbol to commnetize with
+	-w, --wall <wall> 		Wall symbol to commnetize with
 	-x, --wp <width-pad> 		Width Padding length
 
 ARGS:
-	<path> 		Path to file or directory to commentize in the header
+	<path>		Path to file or directory to commentize in the header
 ```
 
   <p  align="right">(<a  href="#top">back to top</a>)</p>
